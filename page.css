@@ -28,8 +28,7 @@ img {
   object-fit: cover;
   position: absolute;
   height: 100%;
-  min-width: 100%;
-  top: 1px;
+  top: 100px;
   left: 0;
   clip: rect(0px,2000px,650px,000px);
  }
