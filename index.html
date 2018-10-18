@@ -1,32 +1,50 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang ="en">
   <head>
-    <meta charset="utf-8">
-    <meta name="viewport" content="width=device-width" initial-scale="1.0">
-    <meta name="HandheldFriendly" content="True" />
-    <meta name="MobileOptimized" content="320" />
-    <link rel="stylesheet" href="page.css">
-    <link rel="stylesheet" type="text/css" media="screen and (max-width: 360px)" href="page.css">
-    <link rel="stylesheet" type="text/css" media="screen and (min-width: 361px) and (max-width: 480px)" href="page.css">
-    <link rel="stylesheet" type="text/css" media="screen and (min-width: 481px)" href="page.css">
-    <title> Lawrence Abu-Hammour </title>
-    <style>
-        img {
-            max-width: 100%;
-        }
-        </style>
-    </head>
+    <meta charset = "utf-8">
 
-<body>
-  <div class = "container">
-      <img src="/imgfold/bronx.jpg" class = "responsive" alt="The Bronx" width="100%">
-      <div class = "centered">
-      <h1 class = "titlepage"> Lawrence Abu-Hammour </h1>
-      </div>
-  </div>
-    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Etiam accumsan fringilla eros. Praesent finibus eget felis non iaculis.
-      Etiam vestibulum tellus vel dapibus fermentum. Interdum et malesuada fames ac ante ipsum primis in faucibus. Nunc euismod vehicula venenatis.
-      Ut auctor nibh sed odio ornare, id consequat eros volutpat. Donec eu risus pulvinar, lacinia est fringilla, rhoncus tortor. Fusce
-      dignissim ligula at libero commodo posuere. Sed turpis ligula, sollicitudin at velit et, luctus feugiat massa. Aenean malesuada convallis nibh ut tempor.
-      Donec bibendum sodales ante, sagittis ullamcorper erat venenatis ut
-     </p>
+    <link rel = "stylesheet" href = "style.css">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+    <link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+  </head>
+  <body>
+      <header class = "header">
+        <nav class = "navbar navbar-style">
+          <div class = "container">
+            <div class = "navbar-header">
+              <button type = "button" class = "navbar-toggle" data-toggle = "collapse" data-target = "#menuicon">
+                <span class = "icon-bar"> </span>
+                <span class = "icon-bar"> </span>
+                <span class = "icon-bar"> </span>
+              </button>
+              <a href="">
+                <img class = "headshot w3-round-xxlarge" src = "headshot.jpg">
+              </a>
+            </div>
+            <div class = "collapse navbar-collapse" id = "menuicon">
+              <ul class = "nav navbar-nav navbar-right">
+                <li><a href = "">Home</a></li>
+                <li><a href = "">Engineering Portfolio</a></li>
+                <li><a href = "">Technical Resume</a></li>
+                <li><a href = "">General Purpose Resume</a></li>
+                <li><a href = "">Photography</a></li>
+                <li><a href = "">Contact Me</a></li>
+              </ul>
+            </div>
+          </div>
+
+        </nav>
+
+
+
+      </header>
+
+      <img src = "bronx.jpg" class = "img-responsive clipper">
+        <div class = "centered">
+          <h1 class = "titlepage"> Lawrence Abu-Hammour </h1>
+        </div>
+
+  </body>
+</html>
