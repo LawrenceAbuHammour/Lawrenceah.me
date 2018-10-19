@@ -6,6 +6,9 @@
   height = 100vh;
 
 }
+nav{
+  z-index: 200;
+}
 .navbar-style{
   box-shadow: 0 5px 10px #efefef;
   text-transform: uppercase;
@@ -22,14 +25,14 @@ li a{
 }
 .titlepage {
     margin: 100px 0 100px 0;
-    font-size: 52;
+    font-size: 30;
     letter-spacing: -1px;
     font-weight: 500;
     font-family: "Times New Roman", Times, serif;
-    color: #85144b;
+    color: white;
 }
 .centered {
-    position: absolute;
+    position:absolute;
     top: 50%;
     left: 50%;
     transform: translate(-50%,-85%);
@@ -39,7 +42,43 @@ li a{
 .clipper{
   clip: rect(0px,0px,5000px,0px)
 }
-.wrap{
-  width: 100%;
-  min-width: 250px;
+
+@media screen and (max-width: 1200px) {
+  .titlepage {
+      margin: 100px 0 100px 0;
+      font-size: 10;
+      letter-spacing: -1px;
+      font-weight: 500;
+      font-family: "Times New Roman", Times, serif;
+      color: white;
+  }
+  .centered {
+      position: absolute;
+      top: 50%;
+      left: 50%;
+      transform: translate(-50%,-70%);
+      white-space: nowrap;
+      overflow: hidden;
+  }
+}
+@media screen and (min-width:200px) and (max-width: 500px) {
+  .titlepage {
+      margin: 100px 0 100px 0;
+      font-size: 10;
+      letter-spacing: -1px;
+      font-weight: 500;
+      font-family: "Times New Roman", Times, serif;
+      color: white;
+  }
+  .centered {
+      position: absolute;
+      top: 50%;
+      left: 50%;
+      transform: translate(-50%,2%);
+      white-space: nowrap;
+      overflow: hidden;
+  }
+  .clipper{
+    clip: rect(0px,0px,5000px,0px)
+  }
 }
