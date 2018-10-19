@@ -7,5 +7,5 @@ $recipient = "lawrenceabuhammour@gmail.com";
 $subject = "Contact Form";
 $mailheader = "From: $email \r\n";
 mail($recipient, $subject, $formcontent, $mailheader) or die("I'm sorry! That doesn't seem right");
-echo "Thank You For Submitting! I will get back to you as soon as I can!";
+echo "Thank You For Submitting! I will get back to you as soon as I can!" . " -" . "<a href='contactme.html' style='text-decoration:none;color:#ff0099;'> Return Home</a>";
 ?>
