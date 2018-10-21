@@ -49,8 +49,8 @@ function initMap() {
   var myhome = {lat: 40.892777, lng: -73.861109};
   // The map, centered at My Home
   var map = new google.maps.Map(
-      document.getElementById('map'), {zoom: 4, center: uluru});
-  // The marker, positioned at Uluru
+      document.getElementById('map'), {zoom: 4, center: myhome});
+  // The marker, positioned at MyHome
   var marker = new google.maps.Marker({position: myhome, map: map});
 }
     </script>
