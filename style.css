@@ -56,13 +56,13 @@ height: auto;
    background-color: grey;
  }
 
-/* @media screen and (max-width: 799px) {
+@media screen and (max-width: 799px) {
   .text{
      position: absolute;
      top: -1%;
      left: 15%;
      color: white;
-     font-size: 7vw;
+     font-size: 3vw;
      font-family: Times New Roman;
      font-weight: 500;
      width: 85%;
@@ -124,4 +124,4 @@ height: auto;
     height: 200px;
     background-color: grey;
   }
-  } */
+  }
