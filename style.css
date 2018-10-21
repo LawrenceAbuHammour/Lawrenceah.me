@@ -4,14 +4,14 @@
     top: -1%;
     left: 15%;
     color: white;
-    font-size: 5vw;
+    font-size: 7vw;
     font-family: Times New Roman;
     font-weight: 500;
     width: 85%;
 }
 
 .header{
-  height = 50vh;
+  height = 100vh;
 }
 
 nav{
