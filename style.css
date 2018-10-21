@@ -111,17 +111,6 @@ height: auto;
      height: auto;
   }
 
-  .titlepage {
-   font-size: 5vw;
-   letter-spacing: -1px;
-   font-weight: 500;
-   font-family: "Times New Roman", Times, serif;
-   color: white;
-   position: relative;
-   max-width: 100%;
-   height: auto;
-  }
-
   .clipper{
    clip: rect(0px,0px,5000px,0px)
   }
