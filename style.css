@@ -66,7 +66,15 @@ height: auto;
      font-weight: 500;
      width: 85%;
   }
-
+  .navbar-nav .show .dropdown-menu {
+    position: static;
+    float: none;
+    width: auto;
+    margin-top: 0;
+    background-color: transparent;
+    border: 0;
+    box-shadow: none;
+  }
   .header{
    height = 100vh;
   }
