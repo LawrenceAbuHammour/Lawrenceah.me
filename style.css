@@ -65,6 +65,7 @@ height: auto;
      font-family: Times New Roman;
      font-weight: 500;
      width: 85%;
+     white-space: nowrap;
   }
   .navbar-nav .show .dropdown-menu {
     position: static;
