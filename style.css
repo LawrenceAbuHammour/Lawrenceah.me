@@ -55,6 +55,21 @@ height: auto;
    height: 400px;
    background-color: grey;
  }
+ .footerfor {
+    position: relative;
+    margin: 8rem 0 0 0;
+    padding: 0.5rem 15px;
+    border-top: #EBF2F6 1px solid;
+    font-family: "Open Sans", sans-serif;
+    font-size: 1rem;
+    line-height: 1.75em;
+    color: #BBC7CC;
+}
+.copyright {
+    display: block;
+    width: 45%;
+    float: left;
+}
 @media (max-width: 450px) {
   .text{
      position: absolute;
