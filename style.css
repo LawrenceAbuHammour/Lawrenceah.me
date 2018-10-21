@@ -55,8 +55,7 @@ height: auto;
    height: 400px;
    background-color: grey;
  }
-
-/* @media screen and (max-width: 799px) {
+@media screen and (max-width: 450px) {
   .text{
      position: absolute;
      top: -1%;
@@ -124,4 +123,4 @@ height: auto;
     height: 200px;
     background-color: grey;
   }
-  } */
+  }
