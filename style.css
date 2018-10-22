@@ -70,6 +70,9 @@ height: auto;
     width: 45%;
     float: left;
 }
+* {box-sizing: border-box}
+.mySlides1, .mySlides2 {display: none}
+img {vertical-align: middle;}
 /* Slideshow container */
 .slideshow-container {
   max-width: 1000px;
