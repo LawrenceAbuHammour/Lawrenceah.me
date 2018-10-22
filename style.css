@@ -74,6 +74,7 @@ height: auto;
 .bodytext{
   padding: 20px;
   margin: 15px;
+  font-size: 3vw;
 }
 * {box-sizing: border-box}
 .mySlides1, .mySlides2 {display: none}
