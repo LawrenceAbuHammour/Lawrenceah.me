@@ -1,48 +1,71 @@
-<!DOCTYPE html>
-<html lang ="en">
-  <head>
-    <meta charset = "utf-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel = "stylesheet" href = "style.css">
-    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
-    <link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
-    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
-    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
-  </head>
-  <body>
-      <header class = "header">
-        <nav class = "navbar navbar-style navbar-static-top">
-          <div class = "container">
-            <div class = "navbar-header">
-              <button type = "button" class = "navbar-toggle" data-toggle = "collapse" data-target = "#menuicon">
-                <span class = "icon-bar"> </span>
-                <span class = "icon-bar"> </span>
-                <span class = "icon-bar"> </span>
-              </button>
-              <a href="/" alt = "Home">
-                <img class = "headshot w3-round-xxlarge" src = "headshot.jpg">
-              </a>
-            </div>
-            <div class = "collapse navbar-collapse" id = "menuicon">
-              <ul class = "nav navbar-nav navbar-right">
-                <li><a href = "index.html">Home</a></li>
-                <li><a href = "EngsPort.html">Engineering Portfolio</a></li>
-                <li><a href = "Lawrence_Abu-Hammour_Tech_Resume.pdf" target ="_blank">Technical Resume<i class="fa fa-paperclip" aria-hidden="true"></i></a></li>
-                <li><a href = "Lawrence_Abu-Hammour_Gen_Resume_Oct_2018.pdf" target ="_blank">General Purpose Resume<i class="fa fa-paperclip" aria-hidden="true"></i></a></li>
-                <li><a href = "photography.html">Photography<i class="fa fa-camera" aria-hidden="true"></i></a></li>
-                <li><a href = "contactme.html" alt = "Contact">Contact Me <i class="fa fa-envelope" aria-hidden="true"></i></a></li>
-              </ul>
-            </div>
-          </div>
-        </nav>
-      </header>
-      <div class="container2" style="position: relative;">
-        <img src = "bronx.jpg" class = "img-responsive clipper">
-        <div class="text" >Lawrence Abu-Hammour</div>
-      </div>
-      <div id="map">
+<!DOCTYPE html> <!--the instruction to associate my webpage with the document type definition of HTML-->
+<html lang ="en"> <!--this is setting the language to be English for the website-->
+  <head> <!--this is the container for all of the head elements in my code-->
+    <meta charset = "utf-8"> <!--character encoding for unicode-->
+    <meta name="viewport" content="width=device-width, initial-scale=1.0"> <!--this meta tag gives the browser instructions on how to control the page's dimensions and scaling-->
+    <link rel = "stylesheet" href = "style.css"> <!--this link tag is used to link to my external style sheet from CSS-->
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css"> <!--this link tag is used to link to my external style sheet from bootstrap-->
+    <link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css"> <!--this link tag is used to link to my external style sheet from w3schools-->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css"> <!--this link tag is used to link to my external style sheet from cloudfare-->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script> <!--this script tag specifies the URL of my external script file in googleapis-->
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script> <!--this script tag specifies the URL of my external script file in bootstrap-->
+  </head> <!--this is the end of the container for all of the head elements in my code-->
+  <body> <!--the body tag of my code which contains all the contents of my HTML document-->
+      <header class = "header"> <!--this is the container for my set of navigational links-->
+        <nav class = "navbar navbar-style navbar-static-top"> <!--this is my navigation bar for the website-->
+          <div class = "container"> <!--this element of my code is used as a container for other HTML elements to style them with CSS-->
+            <div class = "navbar-header"> <!--this element of my code is adding a header for the navigation bar of my website-->
+              <button type = "button" class = "navbar-toggle" data-toggle = "collapse" data-target = "#menuicon"> <!--this adds a button to my website that is collapsible-->
+                <span class = "icon-bar"> </span> <!--this is creating an icon bar for my website-->
+                <span class = "icon-bar"> </span> <!--this is creating an icon bar for my website-->
+                <span class = "icon-bar"> </span> <!--this is creating an icon bar for my website-->
+              </button> <!--this is the end of this section of my code for the collapsible button I inserted for my website-->
+              <a href="/" alt = "Home"> <!--this is providing a destination address to the homepage of the website-->
+                <img class = "headshot w3-round-xxlarge" src = "headshot.jpg"> <!--this is simply adding a picture of me for the website-->
+              </a> <!--this is the end of this section of my code for the destination address to the homepage of the website-->
+            </div> <!--this is the end of this section of my code of the header for the navigation bar of my website-->
+            <div class = "collapse navbar-collapse" id = "menuicon"> <!--this section of code is simply to make the navigation bar of my website collapsible-->
+              <ul class = "nav navbar-nav navbar-right"> <!--this is simply used to right-align the navigation bar buttons for my website-->
+                <li><a href = "index.html">Home</a></li> <!--this is adding a reference to my website that leads the user back to the home page-->
+                <li><a href = "EngsPort.html">Engineering Portfolio</a></li> <!--this is adding a reference to my website that contains my engineering portfolio-->
+                <li><a href = "Lawrence_Abu-Hammour_Tech_Resume.pdf" target ="_blank">Technical Resume<i class="fa fa-paperclip" aria-hidden="true"></i></a></li> <!--this is adding a reference to my website that opens up a pdf file of my Technical Resume in another tab for the user to view-->
+                <li><a href = "Lawrence_Abu-Hammour_Gen_Resume_Oct_2018.pdf" target ="_blank">General Purpose Resume<i class="fa fa-paperclip" aria-hidden="true"></i></a></li> <!--this is adding a reference to my website that opens up a pdf file of my General Resume in another tab for the user to view-->
+                <li><a href = "photography.html">Photography<i class="fa fa-camera" aria-hidden="true"></i></a></li> <!--this is adding a reference to my website that contains the pictures I have taken throughout my hobby in photography-->
+                <li><a href = "contactme.html" alt = "Contact">Contact Me <i class="fa fa-envelope" aria-hidden="true"></i></a></li> <!--this is adding a reference to my website that sends the user to a page that will allow them to contact me by sending a message-->
+              </ul> <!--this is the end of this section of my code for the right-aligned navigation bar buttons for my website-->
+            </div> <!--this is the end of this section of my code for the collapsible navigation bar of my website-->
+          </div> <!--this is the end of this section of my code for the container used to style HTML elements with CSS-->
+        </nav> <!--this is the end of this section of my code for the navigation bar of my website-->
+      </header> <!--this is the end of this section of my code for the container used for my set of navigational links-->
+      <div class="container2" style="position: relative;"> <!--this element of my code is used as a second container for other HTML elements to style them with CSS-->
+        <img src = "bronx.jpg" class = "img-responsive clipper"> <!--this is simply adding a picture of Bronx, New York for the website-->
+        <div class="text" >Lawrence Abu-Hammour</div> <!--this is simply adding text stating my name onto the picture of Bronx, New York for the website-->
+      </div> <!--this is the end of this section of my code for the second container used to style HTML elements with CSS-->
+      <div align = "justify" style = "font-family: Times"><h1> About Me </h1> <!--this section of code is adding in paragraphs to the website detailing background information about me, utilizing Times New Roman font and stretching the lines so that each one has equal width, with the title 'About Me' at the top-->
+        Welcome to my website! My name is Lawrence Abu-Hammour and I'm a member of the great class of 2019 at Dartmouth College. I'm an Engineering Sciences major concentrating
+        in Electromechanical Engineering and I'm also an American History major modified with Arabic studies focusing on the period before 1865. I have always been fascinated with
+        the world of design and engineering ever since I was a kid and I've always had a love for History because of how fun it can be to learn the story of how people lived and continue
+        to live today. I'm from the Bogey-Down Bronx in the great New York City (see picture above and see map below). It is my home and it will always be my home. One day, I plan to use
+        the skills that I learn at Dartmouth in Engineering or Design or even in History to give back to the community that raised me and help to build up the next generation of Bronxites
+        ready to take on the world and "get out" of the Bronx.
+
+        I have taken a good amount of courses in the Engineering department including ENGS 20 which was my very first programming experience which provided my love of learning to code and creating
+        and designing some really cool stuff (Check out my <a href="https://github.com/LawrenceAbuHammour">Github</a>). Through this class during my freshman spring, I learned valuable programming skills in C and MATLAB which
+        is heavily used in the Engineering and Scientific Community. It has become my most treasured engineering skill. From there, I jumped off and learned HTML/CSS the summer after my freshman year and eventually began my
+        self-study program in various languages including SQL and Python. I have also been hopping onto the Javascript, Java, and C++ trains slowly but surely. Eventually, I plan to learn those languages and improve my Python
+        skills. Udemy has been an excellent resource in my coding adventures and I hope to continue to learn more code through the coming years.
+
+        I have even taken some of my coding skills into practice. I am currently a research assistant for Professor James LaBelle at the Wilder Physics Department at Dartmouth. The focus of our research is to identify the reason
+        behind a mysterious "gap" that occurs during Medium-Frequency Burst events and my tool of choice is the MATLAB scripting language as it provides an excellent imaging toolbox that fits our purpose and provides exactly what
+        we need when trying to identify these patterns. I also dabble in improving my CAD skills through Solidworks or AutoCAD which are the main tools used at Thayer and Engineering Firms and Companies for 3D modeling and finite element
+        analysis. (See <a href="EngsPort.html">Engineering Portfolio</a> for more details on my engineering and research work).
+
+        Just like at the Thayer School of Engineering, I love working in teams and groups because I believe that in Engineering and in Design, it is the best way to get things done. It is quite honestly my favorite thing
+        about Engineering at Dartmouth. It's a social experience and a very collaborative, professional experience.
+      </div> <!--this is the end of this section of my code for the paragraphs of my website detailing background information about me-->
+      <div id="map"> <!--this tag is simply adding in a map from Google onto the homepage of the website-->
         <script>
+// This is all code from the Google Developer Websites To Add Google Maps Functionality to my website
 // Initialize and add the map
 function initMap() {
   // The location of My Home
@@ -62,11 +85,13 @@ function initMap() {
     <script async defer
     src="https://maps.googleapis.com/maps/api/js?key=AIzaSyAtVpSB9t6ORxNRXgYJ5SGitBADSb71zCI&callback=initMap">
     </script>
-  </div>
-  </body>
-  <footer class = "footerfor">
-    <section class = "copyright">
-      &copy; Lawrence Abu-Hammour &bull; All Rights Reserved.
-    </section>
-  </footer>
-</html>
+  </div> <!--this is the end of this section of my code for the addition of a map from Google-->
+</body> <!--this is the end of the body tag of my code containing all the elements of my HTML document-->
+  <footer class = "footerfor"> <!--this tag is defining a footer for the website-->
+    <section class = "copyright"> <!--this tag is defining a section for the website dealing with copyright-->
+      &copy; Lawrence Abu-Hammour &bull; All Rights Reserved. <!--this is simply adding the copyright claim to my name for the website-->
+    </section> <!--this is the end of this section of my code for the copyright section defined on the website-->
+    <div class = "socials">
+    </div>
+  </footer> <!--this is the end of this section of my code for the footer defined on the website-->
+</html> <!--this is the end of my HTML code-->
