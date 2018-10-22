@@ -73,6 +73,7 @@ height: auto;
 }
 .bodytext{
   padding: 20px;
+  margin: 10px;
 }
 * {box-sizing: border-box}
 .mySlides1, .mySlides2 {display: none}
