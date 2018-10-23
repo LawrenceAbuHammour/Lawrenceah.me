@@ -117,7 +117,7 @@ img {vertical-align: middle;}
   top: 25%;
   left: 75%;
 }
-@media (max-width: 450px) {
+@media (max-width: 550px) {
   .text{
      position: absolute;
      top: -1%;
