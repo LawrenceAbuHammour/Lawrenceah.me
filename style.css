@@ -138,7 +138,7 @@ body, html {
     /* Add a font */
     font-family: "Courier New", Courier, monospace;
     /* Set the font-size to 25 pixels */
-    font-size: 25px;
+    font-size: 7vw;
 }
 /* Position text in the bottom-left corner */
 .bottomleft {
