@@ -200,4 +200,9 @@ img {vertical-align: middle;}
      color: #BBC7CC;
      white-space: normal;
  }
+ .bodytext{
+   padding: 20px;
+   margin: 15px;
+   font-size: 3vw;
+ }
   }
