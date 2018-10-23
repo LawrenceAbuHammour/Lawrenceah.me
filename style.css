@@ -183,4 +183,10 @@ img {vertical-align: middle;}
     height: 200px;
     background-color: grey;
   }
+  .socials{
+    top: 25%;
+    left: 75%;
+    height: auto;
+    width: auto;
+  }
   }
