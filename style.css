@@ -274,4 +274,23 @@ hr {
    margin: 15px;
    font-size: 4vw;
  }
+ .btn {
+     position: absolute;
+     top: 50%;
+     left: 50%;
+     transform: translate(-50%, 60%);
+     -ms-transform: translate(-50%, 60%);
+     background-color: #555;
+     color: white;
+     font-size: 1vw;
+     padding: 12px 24px;
+     border: none;
+     cursor: pointer;
+     border-radius: 5px;
+     text-align: center;
+ }
+
+ .btn:hover {
+     background-color: black;
+ }
   }
