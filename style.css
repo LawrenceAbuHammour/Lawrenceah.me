@@ -278,8 +278,8 @@ hr {
      position: absolute;
      top: 50%;
      left: 50%;
-     transform: translate(-50%, 140%);
-     -ms-transform: translate(-50%, 140%);
+     transform: translate(-50%, 150%);
+     -ms-transform: translate(-50%, 150%);
      background-color: #555;
      color: white;
      font-size: 1vw;
