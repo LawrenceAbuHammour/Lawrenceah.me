@@ -185,6 +185,9 @@ hr {
 .btn:hover {
     background-color: black;
 }
+a{
+  color: white;
+}
 
 @media (max-width: 550px) {
   .text{
